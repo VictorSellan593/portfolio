@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <title>Victor Sellan - Portfolio</title>
+</head>
+
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <main>
+    <nav class="nav" id="nav">
+      <div class="nav__name">
+        <a href="#">Victor S.</a>
+      </div>
+      <div class="nav__items">
+        <a href="#nav"" class=" nav__item link">INICIO</a>
+        <a href="#secction__sobre_mi" class="nav__item link">SOBRE MÍ</a>
+        <a href="#secction__skills" class="nav__item link">SKILLS</a>
+        <a href="#secction__contacto" class="nav__item link">CONTACTO</a>
+        <button class="theme-btn light nav__item" onclick="setTheme('light')" title="Light mode">
+          <i class="uil uil-sun"></i></button>
+        <button class="theme-btn dark nav__item" onclick="setTheme('dark')" title="Dark mode">
+          <i class="uil uil-moon"></i>
+        </button>
+      </div>
+      <div class="nav__menu">
+        <a href="#" class="nav__meni_item" id="icon_hamburguer"><i class="uil uil-bars"></i></a>
+      </div>
+    </nav>
+    <section class="sec__inicio" id="secction__inicio">
+      <div class="container">
+        <div class="content__img">
+          <img src="img_profile_vsa.jpeg" alt="" />
+        </div>
+        <div class="saludo">
+          <h1 class="title_saludo">Hola, Soy Victor</h1>
+          <h3>Estudiante universitario</h3>
+          <p class="descrip__saludo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            ea praesentium quidem evenie. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.
+          </p>
+          <button class="btn__principal"><a href="#secction__contacto">Contáctame</a><i class="uil uil-arrow-right"></i>
+            
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="sec__container" id="secction__sobre_mi">
+      <div class="tittle_descrip">
+        <h1>Sobre mí</h1>
+        <h5>Mi información</h5>
+      </div>
+      <div class="body__secction">
+        <div class="text__about_me">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt id consequatur quaerat ut, ea,
+            doloremque, at dolorem quas officiis dicta placeat saepe fugit omnis nam eum harum quam nesciunt.</p>
+            <button class="btn__principal"><a href="https://drive.google.com/file/d/1szw21sRf_d8j1Ci8MOTbueYzyyYVLT6W/view?usp=sharing" target="_blank">Descarga mi CV &nbsp;</a><i class="uil uil-import"></i></i>
+            </button>
+        </div>
+        <div class="content__img_about_me">
+          <img src="img_about_me_resize.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="sec__container">
+      <div class="tittle_descrip" id="secction__skills">
+        <h1>Skills</h1>
+        <h5>Mis Habilidades</h5>
+      </div>
+      <div class="body__secction">
+        <h5>HTML</h5>
+        <progress value="90" max="100">70 %</progress>
+        <h5>CSS</h5>
+        <progress value="80" max="100">70 %</progress>
+        <h5>JS</h5>
+        <progress value="70" max="100">70 %</progress>
+      </div>
+    </section>
+    <section class="sec__container" id="secction__contacto">
+      <div class="tittle_descrip">
+        <h1>Contacto</h1>
+        <h5>Descriptcion</h5>
+      </div>
+    </section>
+    <footer></footer>
+  </main>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
